@@ -15,7 +15,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').style.width = '30rem';
     document.querySelector('.number').textContent = secretNumber;
 
-    let audio = new Audio('2da2b5of.mp3');
+    let audio = new Audio('2ehel7lawadeh.mp3');
     audio.play();
 
     if (score > highScore) {
@@ -23,7 +23,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.highscore').textContent = highScore;
     }
   } else if (guess != secretNumber) {
-    let audio = new Audio('retk.mp3');
+    let audio = new Audio('nope.mp3');
     audio.play();
 
     if (score > 1) {
